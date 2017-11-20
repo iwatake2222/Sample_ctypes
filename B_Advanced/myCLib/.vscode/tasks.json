@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+
+	"tasks": [
+		{
+			"label": "all",
+			"command": "mingw32-make.exe",
+			"args": ["all"],
+			"type": "shell",
+			"problemMatcher": "$tsc",
+			"group": "build",
+			"presentation": {
+				"panel": "shared"
+			}
+		},
+		{
+			"label": "clean",
+			"command": "mingw32-make.exe",
+			"args": ["clean"],
+			"type": "shell",
+			"problemMatcher": "$tsc",
+			"group": "build"
+		},
+		{
+			"label": "clean all",
+			"command": "mingw32-make.exe",
+			"args": ["clean", "all"],
+			"type": "shell",
+			"problemMatcher": "$tsc",
+			"group": "build"
+		}
+	]
+}
